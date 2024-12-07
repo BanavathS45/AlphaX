@@ -46,28 +46,26 @@ import Login from "./CURD/Login";
 function App() {
   return (
     <>
-      <Test />
+      {/* <Test />
       <Frequency />
-      <FetchData />
-      {/* <Routes>
+      <FetchData /> */}
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        
 
         <Route path="/service" element={<Design />}>
-          
           <Route path="technology" element={<Technology />} />
           <Route path="marketing" element={<Marketing />} />
-        </Route> */}
-      {/* ----------------Blog---------------------- */}
-      {/* <Route path="/blog" element={<Blog />} />
+        </Route>
+        {/* ----------------Blog---------------------- */}
+        {/* <Route path="/blog" element={<Blog />} />
         <Route path="/blog/Delcutter" element={<Delcutter />} />
         <Route
           path="/blog/GardeningExperience"
           element={<GardeningExperience />}
         /> */}
-      {/* --------------Single Page------------------ */}
-      {/* <Route path="/astarinchimes" element={<Astarinchimes />} />
+        {/* --------------Single Page------------------ */}
+        {/* <Route path="/astarinchimes" element={<Astarinchimes />} />
         <Route path="/store/glamermaid" element={<Glamermaid />} />
         <Route path="/store/joybos" element={<Joybos />} />
         <Route path="/store/boderry" element={<Boderry />} />
@@ -87,15 +85,15 @@ function App() {
         <Route path="/store/uvlizer" element={<Uvlizer />} />
         <Route path="/store/vitaHotDeals" element={<VitaHotDeals />} />
         <Route path="/store/yose" element={<Yose />} /> */}
-      {/* --------------crud--------------- */}
+        {/* --------------crud--------------- */}
 
-      {/* <Route path="/table" element={<Table />} />
+        {/* <Route path="/table" element={<Table />} />
         <Route path="/create" element={<Create />} />
         <Route path="/update/:id" element={<Edit />} /> */}
-      {/* <Route path="/" element={<Fruits />} /> */}
-      {/* <Route path="/*" element={<Nofile />} />
+        {/* <Route path="/" element={<Fruits />} /> */}
+        {/* <Route path="/*" element={<Nofile />} />
         <Route path="/login" element={<Login />} /> */}
-      {/* </Routes> */}
+      </Routes>
     </>
   );
 }
